@@ -1,0 +1,188 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Refund Policy | NextGen Hosting</title>
+    <style>
+        :root {
+            --neon-green: #39FF14;
+            --refund-blue: #00d4ff;
+            --warning-amber: #ffcc00;
+            --bg-dark: #0a0a0a;
+            --card-bg: #141414;
+            --text-main: #e0e0e0;
+            --text-dim: #a0a0a0;
+        }
+
+        body {
+            background-color: var(--bg-dark);
+            color: var(--text-main);
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, sans-serif;
+            line-height: 1.6;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        .container {
+            max-width: 850px;
+            margin: 0 auto;
+            background: var(--card-bg);
+            padding: 50px;
+            border-radius: 15px;
+            border: 1px solid rgba(0, 212, 255, 0.15);
+            /* Soft Blue glow for Refund/Financial theme */
+            box-shadow: 0 10px 40px rgba(0, 212, 255, 0.03);
+        }
+
+        .header {
+            text-align: center;
+            border-bottom: 1px solid #333;
+            padding-bottom: 30px;
+            margin-bottom: 30px;
+        }
+
+        h1 {
+            color: var(--text-main);
+            font-size: 2rem;
+            margin: 0;
+            letter-spacing: 1px;
+        }
+
+        .brand {
+            color: var(--neon-green);
+            font-weight: 800;
+        }
+
+        .subtitle {
+            color: var(--text-dim);
+            font-size: 0.9rem;
+            margin-top: 10px;
+        }
+
+        .refund-badge {
+            display: inline-block;
+            background: rgba(0, 212, 255, 0.1);
+            color: var(--refund-blue);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 0.8rem;
+            font-weight: bold;
+            text-transform: uppercase;
+            margin-bottom: 10px;
+            border: 1px solid var(--refund-blue);
+        }
+
+        h2 {
+            color: var(--refund-blue);
+            font-size: 1.3rem;
+            margin-top: 40px;
+            display: flex;
+            align-items: center;
+        }
+
+        h2::before {
+            content: '•';
+            color: var(--neon-green);
+            margin-right: 10px;
+            font-size: 1.5rem;
+        }
+
+        .warning-section h2 {
+            color: var(--warning-amber);
+        }
+
+        p {
+            color: var(--text-main);
+            font-size: 1rem;
+            margin-bottom: 15px;
+            padding-left: 20px;
+        }
+
+        .section-number {
+            color: var(--text-dim);
+            font-weight: bold;
+            margin-right: 8px;
+            font-size: 0.9rem;
+        }
+
+        .highlight {
+            color: var(--warning-amber);
+            font-weight: bold;
+        }
+
+        .btn-container {
+            text-align: center;
+            margin-top: 50px;
+        }
+
+        .btn {
+            background-color: var(--neon-green);
+            color: #000;
+            padding: 15px 35px;
+            text-decoration: none;
+            border-radius: 8px;
+            font-weight: 800;
+            transition: 0.2s;
+            display: inline-block;
+        }
+
+        .btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 5px 15px rgba(57, 255, 20, 0.3);
+        }
+
+        footer {
+            text-align: center;
+            margin-top: 40px;
+            color: var(--text-dim);
+            font-size: 0.8rem;
+        }
+
+        @media (max-width: 600px) {
+            .container { padding: 25px; }
+        }
+    </style>
+</head>
+<body>
+
+<div class="container">
+    <div class="header">
+        <span class="refund-badge">Billing & Returns</span>
+        <h1><span class="brand">NextGen</span> Hosting</h1>
+        <div class="subtitle">Providing Enterprise Grade Performance Since 2022</div>
+    </div>
+
+    <h2>1. General Policy</h2>
+    <p><span class="section-number">1.1</span> By using NextGen Hosting services, you agree to abide by this policy and other policies published by NextGen Hosting.</p>
+    <p><span class="section-number">1.2</span> All refund requests must be submitted through the official ticket support channels within the applicable refund eligibility period.</p>
+    <p><span class="section-number">1.3</span> NextGen Hosting is under no obligation to issue a refund for dissatisfaction due to personal preference, change of mind, or performance issues caused by customer configurations, third-party software, or misuse.</p>
+
+    <h2>2. Eligibility For Refunds</h2>
+    <p><span class="section-number">2.1</span> <strong>Instant Refund:</strong> If the service has not been delivered, you can request an instant refund.</p>
+    <p><span class="section-number">2.2</span> If service is proven to be inoperable due to a fault on our part and we are unable to resolve the issue within a reasonable time.</p>
+    <p><span class="section-number">2.3</span> Users can request a refund within <span class="highlight">5 days</span> of the initial purchase.</p>
+    <p><span class="section-number">2.4</span> A valid reason must be provided (e.g., technical issue from our side).</p>
+    <p><span class="section-number">2.5</span> Refunds must be requested via support ticket channels (public channels are not accepted).</p>
+    <p><span class="section-number">2.6</span> Once accepted, refunds are processed within 3-5 business days.</p>
+
+    <div class="warning-section">
+        <h2>3. Ineligible for Refunds</h2>
+        <p><span class="section-number">3.1</span> <span class="highlight">Crypto-currency:</span> Payments made via Coinbase Commerce are strictly non-refundable under any circumstances.</p>
+        <p><span class="section-number">3.2</span> Payments for add-ons, upgrades, or additional services are non-refundable.</p>
+        <p><span class="section-number">3.3</span> After 5 days of initial purchase, no refunds will be provided at any cost.</p>
+        <p><span class="section-number">3.4</span> Violating any policy or Terms may result in immediate suspension and zero refund eligibility.</p>
+    </div>
+
+    <div class="btn-container">
+        <a href="https://discord.gg/TvCMaBE4kq" class="btn">OPEN A SUPPORT TICKET</a>
+    </div>
+
+    <footer>
+        &copy; 2022 - 2026 NextGen Hosting. All rights reserved.
+    </footer>
+</div>
+
+</body>
+  </html>
+
